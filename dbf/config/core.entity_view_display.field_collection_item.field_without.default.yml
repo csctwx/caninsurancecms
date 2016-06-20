@@ -1,0 +1,86 @@
+uuid: fc5ef0e0-13e4-4a43-b510-c3449d630cd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_without.field_age
+    - field.field.field_collection_item.field_without.field_v10000
+    - field.field.field_collection_item.field_without.field_v100000
+    - field.field.field_collection_item.field_without.field_v15000
+    - field.field.field_collection_item.field_without.field_v150000
+    - field.field.field_collection_item.field_without.field_v25000
+    - field.field.field_collection_item.field_without.field_v50000
+    - field_collection.field_collection.field_without
+id: field_collection_item.field_without.default
+targetEntityType: field_collection_item
+bundle: field_without
+mode: default
+content:
+  field_age:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_v10000:
+    weight: 0
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_v100000:
+    weight: 4
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_v15000:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_v150000:
+    weight: 5
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_v25000:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_v50000:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+hidden: {  }

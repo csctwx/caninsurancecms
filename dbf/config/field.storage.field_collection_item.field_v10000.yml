@@ -1,0 +1,20 @@
+uuid: c58c88ea-b6de-4f37-81cd-2a7475a1c2f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+id: field_collection_item.field_v10000
+field_name: field_v10000
+entity_type: field_collection_item
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

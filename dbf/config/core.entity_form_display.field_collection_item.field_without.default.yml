@@ -1,0 +1,62 @@
+uuid: 48b5476b-8a11-40df-a75c-33b42dfa2d0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_without.field_age
+    - field.field.field_collection_item.field_without.field_v10000
+    - field.field.field_collection_item.field_without.field_v100000
+    - field.field.field_collection_item.field_without.field_v15000
+    - field.field.field_collection_item.field_without.field_v150000
+    - field.field.field_collection_item.field_without.field_v25000
+    - field.field.field_collection_item.field_without.field_v50000
+    - field_collection.field_collection.field_without
+id: field_collection_item.field_without.default
+targetEntityType: field_collection_item
+bundle: field_without
+mode: default
+content:
+  field_age:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_v10000:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_v100000:
+    weight: 5
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_v15000:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_v150000:
+    weight: 6
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_v25000:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_v50000:
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+hidden: {  }

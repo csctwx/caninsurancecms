@@ -1,0 +1,23 @@
+uuid: 793ed586-0fbf-432c-b2e1-bc1eb76d4ce8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_v25000
+    - field_collection.field_collection.field_with
+id: field_collection_item.field_with.field_v25000
+field_name: field_v25000
+entity_type: field_collection_item
+bundle: field_with
+label: V25000
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

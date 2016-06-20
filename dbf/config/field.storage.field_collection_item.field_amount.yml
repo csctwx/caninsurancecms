@@ -1,0 +1,30 @@
+uuid: e4592f44-ece7-46b7-902e-116d3a08f6cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - options
+id: field_collection_item.field_amount
+field_name: field_amount
+entity_type: field_collection_item
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 100
+      label: $100
+    -
+      value: 1000
+      label: $1000
+    -
+      value: 3000
+      label: $3000
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

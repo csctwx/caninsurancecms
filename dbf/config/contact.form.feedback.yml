@@ -1,0 +1,12 @@
+uuid: c6544fd9-232d-4849-900c-c6e3cd5b609c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - wen108.tu@gmail.com
+reply: ''
+weight: 0

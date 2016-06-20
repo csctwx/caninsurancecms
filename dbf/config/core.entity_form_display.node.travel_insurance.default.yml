@@ -1,0 +1,88 @@
+uuid: c130417e-29d0-4d6b-a719-7a3818ba4dfe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.travel_insurance.body
+    - field.field.node.travel_insurance.field_deductible
+    - field.field.node.travel_insurance.field_name
+    - field.field.node.travel_insurance.field_with
+    - field.field.node.travel_insurance.field_without
+    - node.type.travel_insurance
+  module:
+    - field_collection
+    - path
+    - text
+id: node.travel_insurance.default
+targetEntityType: node
+bundle: travel_insurance
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 7
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  field_deductible:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+  field_name:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_with:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+  field_without:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+  path:
+    type: path
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

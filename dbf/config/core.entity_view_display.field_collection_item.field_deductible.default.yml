@@ -1,0 +1,28 @@
+uuid: bb9c6e9d-e5ef-4180-b8cf-6e851da17170
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_deductible.field_amount
+    - field.field.field_collection_item.field_deductible.field_discount_percent
+    - field_collection.field_collection.field_deductible
+  module:
+    - options
+id: field_collection_item.field_deductible.default
+targetEntityType: field_collection_item
+bundle: field_deductible
+mode: default
+content:
+  field_amount:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_discount_percent:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+hidden: {  }

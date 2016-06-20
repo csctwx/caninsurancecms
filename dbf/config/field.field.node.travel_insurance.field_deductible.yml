@@ -1,0 +1,23 @@
+uuid: fe12f072-c9c2-4099-b9aa-efd1ef3e863b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_deductible
+    - node.type.travel_insurance
+  module:
+    - field_collection
+id: node.travel_insurance.field_deductible
+field_name: field_deductible
+entity_type: node
+bundle: travel_insurance
+label: Deductible
+description: ''
+required: false
+translatable: false
+default_value:
+  - {  }
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

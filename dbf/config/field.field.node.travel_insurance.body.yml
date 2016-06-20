@@ -1,0 +1,22 @@
+uuid: 63ee60bd-e260-4277-8a1f-66a90e999c11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.travel_insurance
+  module:
+    - text
+id: node.travel_insurance.body
+field_name: body
+entity_type: node
+bundle: travel_insurance
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,26 @@
+uuid: 70ad3008-1520-4f10-b776-8d4c106043bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.travel_insurance.body
+    - node.type.travel_insurance
+  module:
+    - text
+    - user
+id: node.travel_insurance.teaser
+targetEntityType: node
+bundle: travel_insurance
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: 0b503cd3-7cff-4eb8-82f3-80b606be72b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_v50000
+    - field_collection.field_collection.field_with
+id: field_collection_item.field_with.field_v50000
+field_name: field_v50000
+entity_type: field_collection_item
+bundle: field_with
+label: V50000
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

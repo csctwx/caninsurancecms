@@ -1,0 +1,14 @@
+uuid: 00ccbc47-7459-4b06-8010-fc48ab528388
+name: 'Canada Insurance'
+mail: wen108.tu@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

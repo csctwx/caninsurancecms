@@ -717,25 +717,27 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 # if (file_exists(__DIR__ . '/settings.local.php')) {
 #   include __DIR__ . '/settings.local.php';
 # } 
+$databases['default']['default'] = array (
+  'database' => 'caninsurancecms',
+  'username' => 'root',
+  'password' => 'root',
+  'prefix' => '',
+  'host' => '127.0.0.1',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
 // $databases['default']['default'] = array (
-//   'database' => 'caninsurancecms',
-//   'username' => 'root',
-//   'password' => 'root',
+//   'database' => 'wen108co_caninsurancecms',
+//   'username' => 'wen108co_csctwx',
+//   'password' => 'focus01',
 //   'prefix' => '',
 //   'host' => 'localhost',
 //   'port' => '3306',
 //   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
 //   'driver' => 'mysql',
 // );
-$databases['default']['default'] = array (
-  'database' => 'wen108co_caninsurancecms',
-  'username' => 'wen108co_csctwx',
-  'password' => 'focus01',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_ApoMe1ka9xEvnE4RT5A31CAqCJnZjcVbinMlYQXMxK1qEBd2OUFv17umelZVuLBPKcoD2fUALw/sync';
+$config_directories['sync'] = 'sites/default/files/config/sync';
+$config_directories['active'] = 'sites/default/files/config/active';
+$config_directories['staging'] = 'sites/default/config/staging';

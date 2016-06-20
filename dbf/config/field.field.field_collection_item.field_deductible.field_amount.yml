@@ -1,0 +1,21 @@
+uuid: fc699e08-99f3-4d47-bef6-a8605272141e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_amount
+    - field_collection.field_collection.field_deductible
+  module:
+    - options
+id: field_collection_item.field_deductible.field_amount
+field_name: field_amount
+entity_type: field_collection_item
+bundle: field_deductible
+label: Amount
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer
